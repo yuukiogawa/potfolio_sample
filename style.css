@@ -1,15 +1,19 @@
 /* 画面のスタイルシート */
-body{
+body {
     font-family: "Noto Sans JP","sans-serif";
     margin: 0;
     min-width: 1076px;
 }
 
-.color_green{
+.color_green {
     color: #00abae ;
 }
+
+.subtitle{
+    font-size: 32px;
+}
 /* header */
-.brockheader{
+.brockheader {
     margin: 10px 0;
     padding: 0 20px 10px;
     box-shadow: 0 10px 10px -5px rgba(204, 204, 204, 0.3);
@@ -20,4 +24,50 @@ body{
     color: #000;
     text-decoration: none;
     letter-spacing: 1px;
+}
+
+/* mainタグスタイルシート */
+.brockmain{
+    text-align: center;
+    margin: 100px 0;
+}
+
+/* profileスタイルシート */
+.itemlist{
+    width: 100%;
+    max-width: 348px;
+    margin: 0 auto;
+}
+
+.itemlist b {
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0 30px;
+}
+
+.itemlist p {
+    font-size: 15px;
+    line-height: normal;
+    text-align: left;
+}
+
+.iconlist {
+    list-style: none;
+    
+    width: 100%;
+    max-width: 247px;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconlist li{
+    margin-right:  22px;
+}
+
+.iconlist li:last-child{
+    margin-right: 0;
 }
