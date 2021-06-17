@@ -138,3 +138,82 @@ body {
     margin: 50px 0 20px;
 
 }
+
+/* タブレット用スタイルシート 
+@media screen and (max-width 767px) {
+    
+}
+*/
+
+@media screen and (max-width: 480px) {
+    body {
+        min-width: 100%;
+    }
+/* headerstyle sheet */
+
+.brockheader {
+
+    padding: 0 10px 10px;
+    box-shadow: 0 8px 8px -5px rgba(204, 204, 204, 0.3);
+}
+
+.brockheader a {
+    font-size: 31px;
+    
+}
+
+/* main スタイルシート */
+
+
+.brockmain{
+   
+    margin: 50px 0;
+}
+/* profileのスタイルシート */
+    .profile{
+    padding: 0 10px;
+    }
+
+    .itemlist{
+        max-width: 100%;
+    }
+
+    .itemlist b {
+        font-size: 18px;
+    }
+
+    .iconlist{
+        max-width: 100%;
+    }
+
+    .iconlist li {
+        margin-right: 25px;
+    }
+
+    /* worksスタイルシート */
+
+    .works{
+        margin: 60px 0 0;
+        padding: 0 10px;
+    }
+
+    .workslist {
+        max-width: 100%;
+    }
+
+    .workslist li{
+        max-width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .workslist h3{
+        font-size: 20px;
+        margin: 5px 0;
+    }
+
+    .workslist span{
+        font-size: 14px;
+    }
+}
